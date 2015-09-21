@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-sm-6 col-md-4" ng-repeat="spot in spot.spots">
+    <a ui-sref='showSpot({id:spot.id})'>
+      <div class="thumbnail">
+        <img class="pull-right" ng-src="assets/images/{{ spot.logo }}" alt="{{ spot.title }}">
+        <div class="caption">
+          <h3>{{ spot.title }}</h3>
+          <p>{{ spot.description }}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

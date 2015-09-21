@@ -1,0 +1,9 @@
+.navbar {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+}
+.footer {
+  margin: 15px;
+}

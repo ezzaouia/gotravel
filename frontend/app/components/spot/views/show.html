@@ -1,0 +1,10 @@
+<div class="caption">
+  <h3>{{ saveOrUpdate.spot.title }}</h3>
+  <p>{{ saveOrUpdate.spot.description }}</p>
+</div>
+
+<div class="">
+  <button class="btn btn-md" ui-sref="spots">Back</button>
+  <button class="btn btn-md" ui-sref="editSpot({id:saveOrUpdate.spot.id})">Edit</button>
+  <button class="btn btn-md" ng-click="saveOrUpdate.destroy()">Delete</button>
+</div>
